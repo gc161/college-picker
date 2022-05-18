@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.quill .ql-editor {
+    min-height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 3px 0 #000;
+
+}
+
+.center {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
